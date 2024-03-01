@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gallery - Film School</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<style>
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+header {
+    background-image:image-set("fimschool1");
+    background-color: #333;
+    color: #000000;
+    padding: 20px;
+    text-align: center;
+}
+nav {
+    background-color: #444;
+    padding: 10px;
+    text-align: center;
+}
+nav a {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 20px;
+}
+nav a:hover {
+    background-color: #555;
+}
+.content {
+    padding: 20px;
+}
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    position: bottom;
+    bottom: 0;
+    width: 100%;
+}
+.feature-image {
+            width: 100%;
+            max-width: 600px;
+            display: block;
+            margin: 0 auto;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+video{
+            width: 100%;
+            max-width: 600px;
+            display: block;
+            margin: 0 auto;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+</style>
+<body>
+    <header>
+        <h1>Film School</h1>
+        <nav>
+                <a href="Home.html">Home</a>
+                <a href="About Us.html">About Us</a>
+                <a href="Contact.html">Courses</a>
+                <a href="Gallery.html">Gallery</a>
+                <a href="Contact.html">Contact</a>
+            </nav>
+    </header>
+
+    <main>
+        <section>
+            <h2>Gallery</h2>
+            <p>Enjoy the sneek peek of where dreamscome true.</p>
+            <p><img src="HTML images/filschool2.jpg" alt="Gallery Images" class="feature-image">
+                <strong><video width="320" height="240" controls>
+                    <source src="HTML images/FilmVideo.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video></strong><br>
+                <img src="HTML images/filmschool3.jpg" alt="Gallery Images" class="feature-image"><br>
+
+                <img src="HTML images/filmschool4.jpg" alt="Gallery Images" class="feature-image"></p>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Film School</p>
+    </footer>
+</body>
+</html>
